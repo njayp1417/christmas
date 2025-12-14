@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Dancing Script', cursive;
+  background: linear-gradient(135deg, #0f4c75, #3282b8, #bbe1fa);
+  min-height: 100vh;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+.homepage {
+  min-height: 100vh;
+  background: linear-gradient(rgba(139, 69, 19, 0.2), rgba(34, 139, 34, 0.2)), url('https://images.unsplash.com/photo-1674859146251-53c7c74a76fd?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2FudGElMjBjbGF1c3xlbnwwfHwwfHx8MA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.snowflakes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.snowflake {
+  position: absolute;
+  color: white;
+  font-size: 1em;
+  animation: fall linear infinite;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-100vh) rotate(0deg);
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+  }
+}
+
+.christmas-header {
+  text-align: center;
+  padding: 2rem;
+  color: white;
+}
+
+.main-title {
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 4rem;
+  text-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+  margin-bottom: 1rem;
+  color: #ffeb3b;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.input-section {
+  background: rgba(255,255,255,0.9);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+  max-width: 500px;
+  margin: 1rem auto;
+  backdrop-filter: blur(5px);
+  border: 2px solid rgba(220,20,60,0.3);
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #2c5530;
+  font-size: 1.2rem;
+}
+
+.name-input, .favorites-select {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #4caf50;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-family: 'Dancing Script', cursive;
+}
+
+.name-input:focus, .favorites-select:focus {
+  outline: none;
+  border-color: #ff5722;
+  box-shadow: 0 0 10px rgba(255,87,34,0.3);
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(45deg, #4caf50, #8bc34a);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s;
+  font-family: 'Dancing Script', cursive;
+}
+
+.submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.person-page {
+  min-height: 100vh;
+  background: linear-gradient(rgba(139, 69, 19, 0.2), rgba(34, 139, 34, 0.2)), url('https://images.unsplash.com/photo-1674859146251-53c7c74a76fd?w=1200&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2FudGElMjBjbGF1c3xlbnwwfHwwfHx8MA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.person-title {
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 3.5rem;
+  color: #ffeb3b;
+  text-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+  margin-bottom: 2rem;
+}
+
+.appreciation-card {
+  background: rgba(255,255,255,0.9);
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  backdrop-filter: blur(5px);
+  border: 2px solid rgba(34,139,34,0.3);
+}
+
+.appreciation-text {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: #2c5530;
+  margin-bottom: 2rem;
+}
+
+.back-btn {
+  padding: 12px 24px;
+  background: linear-gradient(45deg, #ff5722, #ff9800);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: transform 0.3s;
+  font-family: 'Dancing Script', cursive;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.back-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.christmas-icons {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 2.5rem;
+  }
+  
+  .input-section {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+  
+  .person-title {
+    font-size: 2.5rem;
+  }
+}
