@@ -27,7 +27,7 @@ const NnePolinpoPage = () => {
       <div className="appreciation-card">
         <div className="christmas-icons">🎅 🎁 ⭐ 🔔 🎄</div>
         
-        <p style={{ fontSize: '1.2rem', lineHeight: '1.6', color: '#2c5530', textAlign: 'left', margin: '2rem 0' }}>
+        <p style={{ fontSize: '1.4rem', lineHeight: '1.7', color: '#1a3d1f', textAlign: 'left', margin: '2rem 0', fontWeight: '700', textShadow: '1px 1px 3px rgba(0,0,0,0.3)', letterSpacing: '0.5px' }}>
           What can I say but thank you... thank you thank you... 🙏<br/><br/>
           You provided me with a sanctuary to save me from mental health issues, walked me to the market reminding me of how daddy would always do that when I was growing up... 🚶‍♂️❤️<br/><br/>
           Of course I left your wahalasome parents house and you assumed upon yourself the role of a father and mother to me... 👨‍👩‍👦<br/><br/>
@@ -40,7 +40,7 @@ const NnePolinpoPage = () => {
           <source src="/total.mp4" type="video/mp4" />
         </video>
         
-        <p style={{ margin: '1.5rem 0', fontSize: '1.2rem', color: '#2c5530', fontFamily: 'Dancing Script, cursive', lineHeight: '1.6', textAlign: 'center' }}>
+        <p style={{ margin: '1.5rem 0', fontSize: '1.4rem', color: '#1a3d1f', fontFamily: 'Dancing Script, cursive', lineHeight: '1.7', textAlign: 'center', fontWeight: '700', textShadow: '1px 1px 3px rgba(0,0,0,0.3)', letterSpacing: '0.5px' }}>
           This is probably my last Christmas being referred to as a kid so I'm gonna do childish things like this, hope you enjoy it! 🎄 As a kid I want a Christmas present - this would serve as that Christmas card I gave to relatives back then to write promises. ✨
         </p>
         

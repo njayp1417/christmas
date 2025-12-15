@@ -41,7 +41,7 @@ const JulianaPage = () => {
           <div style={{ background: 'rgba(255,255,255,0.95)', padding: '2rem', borderRadius: '25px', maxWidth: '90%', maxHeight: '90%', overflow: 'auto', border: '3px solid #ff69b4', boxShadow: '0 20px 60px rgba(0,0,0,0.4)', backdropFilter: 'blur(10px)' }}>
             <h2 style={{ textAlign: 'center', color: '#8B4513', marginBottom: '1rem', fontFamily: 'Mountains of Christmas, cursive', fontSize: '2.2rem', textShadow: '2px 2px 4px rgba(0,0,0,0.3)' }}>🎄 To My Beautiful Wife 🎄</h2>
             
-            <p style={{ fontSize: '1.2rem', lineHeight: '1.6', color: '#2c5530', textAlign: 'left', margin: '2rem 0', fontFamily: 'Dancing Script, cursive' }}>
+            <p style={{ fontSize: '1.4rem', lineHeight: '1.7', color: '#1a3d1f', textAlign: 'left', margin: '2rem 0', fontFamily: 'Dancing Script, cursive', fontWeight: '700', textShadow: '1px 1px 3px rgba(0,0,0,0.3)', letterSpacing: '0.5px' }}>
               My dearest Juliana, my babe for 6 years now... ❤️<br/><br/>
               We have been together through it all, suffering from distance but our love has only grown stronger! The miles between us could never diminish what we share. 💕🌍<br/><br/>
               You mean everything to me, and I want you to know how much you truly mean to my heart and soul. Every memory we've created together is precious to me... ✨<br/><br/>

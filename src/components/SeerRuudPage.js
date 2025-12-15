@@ -32,7 +32,7 @@ const SeerRuudPage = () => {
       <div className="appreciation-card">
         <div className="christmas-icons">🎅 🎁 ⭐ 🔔 🎄</div>
         <h2>Merry Christmas Sir! 🎄</h2>
-        <p style={{ fontSize: '1.2rem', lineHeight: '1.6', color: '#2c5530', textAlign: 'left', margin: '2rem 0' }}>
+        <p style={{ fontSize: '1.4rem', lineHeight: '1.7', color: '#1a3d1f', textAlign: 'left', margin: '2rem 0', fontWeight: '700', textShadow: '1px 1px 3px rgba(0,0,0,0.3)', letterSpacing: '0.5px' }}>
           Merry Christmas Sir! 🎄<br/><br/>
           This would basically just be a gratitude message for a year spent together, a year which once again I learnt a lot from you and gained a lot as well... 📚✨<br/><br/>
           Thank you sir for everything - the laptop 💻, the enormous unrelenting unwavering school support 🎓. I really do appreciate it all sir, thank you! Forever in debt 🙏❤️<br/><br/>
